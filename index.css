@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7f7; /* light pink background */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff7f7;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: translate(-2px);
+  }
+  
+  .logo-box {
+    background-color: #080808;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .brand-name {
+    font-size: 29px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #222;
+  }
+  
+  .nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 510;
+  }
+  
+  .nav-links a {
+    position: relative;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #555;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: black;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    height:80vh;
+    box-sizing: border-box;
+}
+
+.top-2 {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 50px 600px rgb(176, 214, 211);
+}
+
+h1 {
+    margin-left: 30%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+.container-x{
+  margin-left: 1080px;
+}
+.container-x button{
+  height: 50px;
+  width: 150px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(226, 214, 216);
+  box-shadow: 0 10px 25px black;
+}
+.container-x button:hover{
+  background-color: lavender;
+}
+
+.online-apps img{
+  height: 10px;
+  width: 10px;
+}
+.container-2{
+  display: flex;
+  margin-left: 400px;
+  gap:40px;
+}
+.github-app img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.linkedIn-app img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.insta-app img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.heading-1{
+  margin-left: 300px;
+  margin-top: 90px;
+}
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220vh; 
+}
+.roadmap img {
+  max-width: 100px;
+  height: 1350px;
+}
+
+.ten-education-container{
+  border: 20px;
+  background-color: none;
+  margin-top: -500px;
+  padding-left: 250px;
+}
+.ten{
+  font-size: 35px;
+}
+.ten-class {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 40px 8px rgba(8, 8, 8, 0.1);
+  padding: 15px;
+  width: fit-content;
+}
+
+.ten button{
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: black ;
+}
+/**/
+.twelve-education-container{
+  border: 20px;
+  background-color: none;
+  margin-top: -550px;
+  padding-left: 900px;
+}
+.twelve{
+  font-size: 35px;
+}
+.twelve-class {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 40px 8px rgba(8, 8, 8, 0.1);
+  padding: 15px;
+  width: fit-content;
+}
+
+.twelve button{
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: black ;
+}
+/**/
+.btech-education-container{
+  border: 20px;
+  background-color: none;
+  padding-left: 250px;
+  margin-top: -550px;
+}
+.sixteen{
+  font-size: 35px;
+}
+.btech-class {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 40px 8px rgba(8, 8, 8, 0.1);
+  padding: 15px;
+  width: fit-content;
+}
+
+.sixteen button{
+  width: 80px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: black ;
+}
+/**/
+.Rooman-container{
+  border: 20px;
+  background-color: none;
+  padding-left: 850px;
+  margin-top: -550px;
+}
+.comapany{
+  font-size: 35px;
+}
+.internship-class {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 40px 8px rgba(8, 8, 8, 0.1);
+  padding: 15px;
+  width: fit-content;
+}
+
+.comapany button{
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: black ;
+}
+.tech-blog{
+  margin-top: 1200px;
+  padding-left: 320px;
+}
+.blog-welcome{
+  text-align: center;
+  margin-left: -250px;
+}
+.My-tech-journey h3{
+  color: black;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 2.3;
+}
+.t-skills h2{
+  margin-top: 80px;
+  padding-left: 120px;
+}
+.skills{
+  padding-left: 100px;
+  line-height: 35px;
+}
+.verical-line{
+  height: 200px;
+  width: 1px;
+  background-color: #080808;
+  margin: 0 20px;
+}
